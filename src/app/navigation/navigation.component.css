@@ -1,0 +1,21 @@
+.nav-btn{
+    border-bottom: 1px solid white;
+    font-weight: bold;
+    color:white;
+    
+}
+.nav-btn a{
+    color:white;
+}
+.nav-btn a:hover{
+    transition: 1s;
+    color: yellowgreen !important;
+    border-bottom: 1px solid yellowgreen;
+}
+.sidebar{
+    background-color: #222222;
+    padding: 0.65rem;
+}
+.navbartext{
+    font-size: 0.7rem;
+}

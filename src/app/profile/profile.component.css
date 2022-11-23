@@ -1,0 +1,19 @@
+.background-carousel{
+    width: 25rem;
+    height: 20rem;
+    background-color: #222222;
+}
+.slide{
+    height: auto!important;
+}
+.profileimg{
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.profile-info{
+    background-color: #222222;
+}

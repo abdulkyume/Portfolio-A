@@ -1,0 +1,35 @@
+.education-div{
+    width: 30rem;
+}
+.education-text{
+    text-align: justify;
+}
+.text-yellowgreen{
+    color: yellowgreen;
+}
+.education{
+    height: 30rem;
+    overflow-y: scroll;
+}
+.education-year{
+    border:1px solid white;
+    width: fit-content;
+    padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+    font-size: small;
+}
+.education-institute{
+    margin-top: 0.7rem;
+    font-weight: bold;
+}
+.education-addr{
+    font-size: x-small;
+    margin-top: 0.5rem;
+}
+.education-name{
+    margin-top: 0.5rem;
+    margin-right: 2rem;
+}
+.education-grade{
+    margin-top: 0.5rem;
+    font-size: small;
+}
