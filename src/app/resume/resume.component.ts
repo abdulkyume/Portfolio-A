@@ -11,5 +11,11 @@ export class ResumeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  myexps = [{
+    id:1,
+    des_name:'Web Application Developer',
+    year:'2022-Current',
+    wkplc_name: 'Quantum Foundation',
+    details:'Devloping Web Application using Angular Framework'
+  }]
 }

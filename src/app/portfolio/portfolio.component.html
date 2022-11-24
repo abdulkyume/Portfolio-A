@@ -1,8 +1,8 @@
-<div class="container bg-black">
-    <div class="d-flex justify-content-center align-items-center">
-      <div><app-navigation></app-navigation></div>
-      <div><app-profile></app-profile></div>
-      <div>
+<div class="container d-flex justify-content-center align-items-center"(window:resize)="onResize($event)" style="display: 100vh;">
+    <div class="d-flex justify-content-center align-items-center" id="portfolio">
+      <div class="bg-black p-lg-4 p-md-3"><app-navigation></app-navigation></div>
+      <div class="bg-black" *ngIf="needtoshow"><app-profile></app-profile></div>
+      <div class="bg-black" *ngIf="needtoshow2">
         <router-outlet></router-outlet>
       </div>
     </div>

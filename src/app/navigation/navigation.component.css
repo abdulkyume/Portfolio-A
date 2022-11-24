@@ -1,21 +1,85 @@
-.nav-btn{
-    border-bottom: 1px solid white;
-    font-weight: bold;
-    color:white;
-    
+.nav-btn {
+  border-bottom: 1px solid white;
+  font-weight: bold;
+  color: white;
 }
-.nav-btn a{
-    color:white;
+.nav-btn a {
+  color: white;
 }
-.nav-btn a:hover{
-    transition: 1s;
-    color: yellowgreen !important;
-    border-bottom: 1px solid yellowgreen;
+.nav-btn a:hover {
+  transition: 1s;
+  color: yellowgreen !important;
+  border-bottom: 1px solid yellowgreen;
 }
-.sidebar{
+.sidebar {
+  background-color: #222222;
+  padding: 0.65rem;
+}
+.navbartext {
+  font-size: 0.7rem;
+}
+.sidebar-ul {
+  width: 40vh ;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.sidebar-ul li {
+  display: inline-block !important;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .sidebar {
+    background-color: #222222;
+    padding: 0rem;
+  }
+  .navbartext {
+    font-size: 0.1rem;
+  }
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: yellowgreen;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: yellowgreen;
+}
+
+
+@media screen and (max-width: 768px) {
+  .sidebar {
     background-color: #222222;
     padding: 0.65rem;
-}
-.navbartext{
+  }
+  .navbartext {
     font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sidebar {
+    background-color: #222222;
+    padding: 0.65rem;
+  }
+  .navbartext {
+    font-size: 0.65rem;
+  }
 }

@@ -1,0 +1,19 @@
+.thesis-div {
+  width: 30rem;
+}
+.thesis-text {
+  height: 30rem;
+  text-align: justify;
+}
+.text-yellowgreen {
+  color: yellowgreen;
+}
+@media screen and (max-width: 480px) {
+  .thesis-div {
+    width: 20rem;
+  }
+  .thesis-text {
+    height: 20rem;
+    text-align: justify;
+  }
+}

@@ -1,19 +1,56 @@
-.background-carousel{
-    width: 25rem;
+.carousal-img {
+}
+.background-carousel {
+  width: 30rem;
+  height: 30rem;
+  background-color: #222222;
+}
+.slide {
+  height: auto !important;
+}
+.profileimg {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.profile-info {
+  background-color: #222222;
+}
+#df-msg {
+  color: yellowgreen;
+  font-size: small;
+}
+
+@media screen and (max-width: 480px) {
+  .background-carousel {
+    width: 22rem;
     height: 20rem;
     background-color: #222222;
-}
-.slide{
-    height: auto!important;
-}
-.profileimg{
+  }
+  .profileimg {
     width: 10rem;
     height: 10rem;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
 }
-.profile-info{
+@media screen and (min-width: 768px) {
+  .background-carousel {
+    width: 25rem;
+    height: 25rem;
     background-color: #222222;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .background-carousel {
+    width: 25rem;
+    height: 25rem;
+    background-color: #222222;
+  }
 }

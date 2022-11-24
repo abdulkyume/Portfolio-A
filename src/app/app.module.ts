@@ -12,6 +12,10 @@ import { ContactComponent } from './contact/contact.component';
 import { EducationComponent } from './education/education.component';
 import { SkillsComponent } from './skills/skills.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ThesisComponent } from './thesis/thesis.component';
+import { FormBuilder, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { DownloadComponent } from './download/download.component';
 
 @NgModule({
   declarations: [
@@ -24,13 +28,17 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     ContactComponent,
     EducationComponent,
     SkillsComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    ThesisComponent,
+    DownloadComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [FormBuilder],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,51 @@
+.text-yellowgreen {
+  color: yellowgreen;
+}
+.works-div {
+  width: 30rem;
+}
+.work {
+  text-align: center;
+  flex: 50%;
+  height: 12rem;
+  border-bottom: 0.5px solid grey;
+}
+.works-details {
+  height: 30rem;
+  overflow-y: scroll;
+}
+.pr-img {
+  width: 130px;
+  height: 70px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: yellowgreen;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: yellowgreen;
+}
+
+@media screen and (max-width: 480px) {
+  .works-div {
+    width: 26rem;
+  }
+  .works-details {
+    height: 25rem;
+    overflow-y: scroll;
+  }
+}

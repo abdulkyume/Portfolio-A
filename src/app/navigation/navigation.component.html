@@ -1,6 +1,14 @@
-<div class="sidebar">
-  <ul class="list-unstyled">
-    <li class="d-block mb-4 mt-4 nav-btn">
+<div class="sidebar p" id = "sidebar">
+  <ul class="list-unstyled ps-2" id ="sidebar-ul">
+    <li *ngIf="needtoshow" class="ms-2 d-block mb-4 mt-4 nav-btn me-2">
+      <a
+        routerLink="Profile" routerLinkActive
+        class="text-decoration-none d-flex justify-content-center align-items-center flex-column"
+        ><div><i class="bi bi-person"></i></div>
+        <div class="navbartext">Profile</div></a
+      >
+    </li>
+    <li class="d-block mb-4 mt-4 nav-btn ms-md-3 me-md-3 ms-4 me-2">
       <a
         routerLink="About" routerLinkActive
         class="text-decoration-none d-flex justify-content-center align-items-center flex-column"
@@ -8,7 +16,7 @@
         <div class="navbartext">ABOUT</div></a
       >
     </li>
-    <li class="d-block mb-4 mt-4 nav-btn">
+    <li class="d-block mb-4 mt-4 nav-btn ms-md-3 me-md-3 ms-2 me-2">
       <a
         routerLink="Education"
         class="text-decoration-none d-flex justify-content-center align-items-center flex-column"
@@ -16,7 +24,15 @@
         <div class="navbartext">EDUCATION</div></a
       >
     </li>
-    <li class="d-block mb-4 mt-4 nav-btn">
+    <li class="d-block mb-4 mt-4 nav-btn ms-md-3 me-md-3 ms-2 me-2">
+      <a
+        routerLink="Thesis"
+        class="text-decoration-none d-flex justify-content-center align-items-center flex-column"
+        ><div><i class="bi bi-journal-bookmark"></i></div>
+        <div class="navbartext">THESIS</div></a
+      >
+    </li>
+    <li class="d-block mb-4 mt-4 nav-btn ms-md-3 me-md-3 ms-2 me-2">
       <a
         routerLink="Skills"
         class="text-decoration-none d-flex justify-content-center align-items-center flex-column"
@@ -24,7 +40,7 @@
         <div class="navbartext">SKILLS</div></a
       >
     </li>
-    <li class="d-block mb-4 mt-4 nav-btn">
+    <li class="d-block mb-4 mt-4 nav-btn ms-md-3 me-md-3 ms-2 me-2">
       <a
         routerLink="Projects"
         class="text-decoration-none d-flex justify-content-center align-items-center flex-column"
@@ -32,7 +48,7 @@
         <div class="navbartext">PROJECTS</div></a
       >
     </li>
-    <li class="d-block mb-4 mt-4 nav-btn">
+    <li class="d-block mb-4 mt-4 nav-btn ms-md-3 me-md-3 ms-2 me-2">
       <a
         routerLink="Experience"
         class="text-decoration-none d-flex justify-content-center align-items-center flex-column"
@@ -40,7 +56,7 @@
         <div class="navbartext">EXPERIENCE</div></a
       >
     </li>
-    <li class="d-block mb-4 mt-4 nav-btn">
+    <li class="d-block mb-4 mt-4 nav-btn ms-md-3 me-md-3 ms-2">
       <a
         routerLink="Contact"
         class="text-decoration-none d-flex justify-content-center align-items-center flex-column"

@@ -1,6 +1,17 @@
-.aboutme-text{
-    text-align: justify;
+.aboutmediv {
+  width: 30rem;
 }
-.aboutmediv{
-    width: 30rem;
+.aboutme-text {
+  height: 30rem;
+  text-align: justify;
+}
+
+@media screen and (max-width: 480px) {
+  .aboutmediv {
+    width: 21rem;
+  }
+  .aboutme-text {
+    height: 30rem;
+    text-align: justify;
+  }
 }

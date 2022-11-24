@@ -1,3 +1,6 @@
+import { ProfileComponent } from './profile/profile.component';
+import { DownloadComponent } from './download/download.component';
+import { ThesisComponent } from './thesis/thesis.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ResumeComponent } from './resume/resume.component';
 import { WorksComponent } from './works/works.component';
@@ -24,6 +27,16 @@ const routes: Routes = [
       { path: 'Skills', component: SkillsComponent },
       { path: 'Projects', component: WorksComponent },
       { path: 'Experience', component: ResumeComponent },
+      { path: 'Thesis', component: ThesisComponent },
+      { path: 'Download', component: DownloadComponent },
+      {
+        path: 'Profile',
+        component: ProfileComponent,
+        children: [
+          { path: 'Download', component: DownloadComponent },
+          { path: 'Contact', component: ContactComponent },
+        ],
+      },
     ],
   },
   {
