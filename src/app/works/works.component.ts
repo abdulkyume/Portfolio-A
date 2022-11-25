@@ -43,5 +43,13 @@ export class WorksComponent implements OnInit {
       live: 'https://abdulkyume.github.io/Applicantor/',
       github: null,
     },
+    {
+      id: 4,
+      img: 'assets/img/weather.png',
+      title: 'Weather Search',
+      desc: 'React, REST-API',
+      live: 'https://react-weatherapp-three.vercel.app/',
+      github: 'https://github.com/abdulkyume/react-weatherapp',
+    },
   ];
 }
