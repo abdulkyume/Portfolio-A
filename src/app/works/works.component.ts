@@ -28,6 +28,14 @@ export class WorksComponent implements OnInit {
     },
     {
       id: 3,
+      img: 'assets/img/weather.png',
+      title: 'Weather Search',
+      desc: 'React, REST-API',
+      live: 'https://react-weatherapp-three.vercel.app/',
+      github: 'https://github.com/abdulkyume/react-weatherapp',
+    },
+    {
+      id: 4,
       img: 'assets/img/ulence.png',
       title: 'ULENCE Templete',
       desc: 'HTML,CSS,JS and JQuery',
@@ -36,20 +44,12 @@ export class WorksComponent implements OnInit {
     },
     
     {
-      id: 3,
+      id: 5,
       img: 'assets/img/applicantor.png',
       title: 'Applicantor',
       desc: 'HTML,CSS,JS',
       live: 'https://abdulkyume.github.io/Applicantor/',
       github: null,
-    },
-    {
-      id: 4,
-      img: 'assets/img/weather.png',
-      title: 'Weather Search',
-      desc: 'React, REST-API',
-      live: 'https://react-weatherapp-three.vercel.app/',
-      github: 'https://github.com/abdulkyume/react-weatherapp',
     },
   ];
 }
