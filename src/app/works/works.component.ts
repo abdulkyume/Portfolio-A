@@ -30,7 +30,7 @@ export class WorksComponent implements OnInit {
       id: 3,
       img: 'assets/img/weather.png', 
       title: 'Weather Search',
-      desc: 'Using React, REST-API',
+      desc: 'React, REST-API',
       live: 'https://react-weatherapp-three.vercel.app/',
       github: 'https://github.com/abdulkyume/react-weatherapp',
     },
