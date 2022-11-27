@@ -18,14 +18,14 @@ export class WorksComponent implements OnInit {
       live: 'https://khoshgolpo.vercel.app/login',
       github: null,
     },
-    {
-      id: 2,
-      img: 'assets/img/myeditor.png',
-      title: 'Rich Text Editor',
-      desc: 'Using Angular',
-      live: 'https://angular-ivy-tjhejw.stackblitz.io',
-      github: null,
-    },
+    // {
+    //   id: 2,
+    //   img: 'assets/img/myeditor.png',
+    //   title: 'Rich Text Editor',
+    //   desc: 'Using Angular',
+    //   live: 'https://angular-ivy-tjhejw.stackblitz.io',
+    //   github: null,
+    // },
     {
       id: 3,
       img: 'assets/img/weather.png', 
