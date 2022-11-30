@@ -27,6 +27,14 @@ export class WorksComponent implements OnInit {
     //   github: null,
     // },
     {
+      id: 5,
+      img: 'assets/img/todolist.png',
+      title: 'TodoList',
+      desc: 'MERN stack',
+      live: 'https://react-todolist-delta.vercel.app/',
+      github: 'https://github.com/abdulkyume/react-todolist',
+    },
+    {
       id: 3,
       img: 'assets/img/weather.png', 
       title: 'Weather Search',
@@ -51,5 +59,6 @@ export class WorksComponent implements OnInit {
       live: 'https://abdulkyume.github.io/Applicantor/',
       github: null,
     },
+    
   ];
 }
