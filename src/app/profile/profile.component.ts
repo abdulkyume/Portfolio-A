@@ -1,7 +1,11 @@
+import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
+  standalone: true,
   selector: 'app-profile',
+  imports: [CommonModule, RouterOutlet],
   templateUrl: './profile.component.html',
   styleUrls: ['./profile.component.css'],
 })
@@ -41,5 +45,4 @@ export class ProfileComponent implements OnInit {
       }
     }
   }
-  
 }

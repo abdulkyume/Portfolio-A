@@ -1,9 +1,19 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import '../../assets/js/smtp'
+import {
+  FormGroup,
+  FormBuilder,
+  Validators,
+  FormsModule,
+  ReactiveFormsModule,
+} from '@angular/forms';
+import '../../assets/js/smtp';
+import { CommonModule } from '@angular/common';
+import { RouterOutlet } from '@angular/router';
 declare let Email: any;
 @Component({
+  standalone: true,
   selector: 'app-contact',
+  imports: [CommonModule, RouterOutlet, FormsModule, ReactiveFormsModule],
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css'],
 })

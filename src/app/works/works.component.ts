@@ -1,7 +1,11 @@
+import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
+  standalone: true,
   selector: 'app-works',
+  imports: [CommonModule, RouterOutlet],
   templateUrl: './works.component.html',
   styleUrls: ['./works.component.css'],
 })
@@ -36,7 +40,7 @@ export class WorksComponent implements OnInit {
     },
     {
       id: 3,
-      img: 'assets/img/weather.png', 
+      img: 'assets/img/weather.png',
       title: 'Weather Search',
       desc: 'React, REST-API',
       live: 'https://react-weatherapp-three.vercel.app/',
@@ -50,7 +54,7 @@ export class WorksComponent implements OnInit {
       live: 'https://abdulkyume.github.io/ulence/',
       github: null,
     },
-    
+
     {
       id: 5,
       img: 'assets/img/applicantor.png',
@@ -59,6 +63,5 @@ export class WorksComponent implements OnInit {
       live: 'https://abdulkyume.github.io/Applicantor/',
       github: null,
     },
-    
   ];
 }

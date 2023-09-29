@@ -1,8 +1,13 @@
-import { Router } from '@angular/router';
+import { Router, RouterOutlet } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { NavigationComponent } from '../navigation/navigation.component';
+import { ProfileComponent } from '../profile/profile.component';
 
 @Component({
+  standalone: true,
   selector: 'app-portfolio',
+  imports: [CommonModule, RouterOutlet, NavigationComponent, ProfileComponent],
   templateUrl: './portfolio.component.html',
   styleUrls: ['./portfolio.component.css'],
 })
@@ -28,7 +33,6 @@ export class PortfolioComponent implements OnInit {
   needtoshow = false;
   needtoshow2 = false;
   onResize(event: any) {
-    console.log(event.target.innerWidth);
     if (event.target.innerWidth > 767 && event.target.innerWidth < 1025) {
       this.needtoshow = false;
       this.needtoshow2 = true;

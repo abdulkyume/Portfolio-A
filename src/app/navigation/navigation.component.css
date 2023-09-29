@@ -13,12 +13,11 @@
 }
 .sidebar {
   background-color: #222222;
-  padding: 0.65rem;
 }
 .navbartext {
   font-size: 0.7rem;
 }
-.sidebar-ul {
+/* .sidebar-ul {
   width: 40vh ;
   overflow-x: scroll;
   white-space: nowrap;
@@ -28,7 +27,7 @@
   display: inline-block !important;
   margin-left: 2rem;
   margin-right: 2rem;
-}
+} */
 
 @media screen and (max-width: 480px) {
   .sidebar {
@@ -67,7 +66,6 @@
 @media screen and (max-width: 768px) {
   .sidebar {
     background-color: #222222;
-    padding: 0.65rem;
   }
   .navbartext {
     font-size: 0.7rem;
@@ -77,7 +75,6 @@
 @media screen and (min-width: 1024px) {
   .sidebar {
     background-color: #222222;
-    padding: 0.65rem;
   }
   .navbartext {
     font-size: 0.65rem;

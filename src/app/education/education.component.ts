@@ -1,7 +1,11 @@
+import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
+  standalone: true,
   selector: 'app-education',
+  imports: [CommonModule, RouterOutlet],
   templateUrl: './education.component.html',
   styleUrls: ['./education.component.css'],
 })

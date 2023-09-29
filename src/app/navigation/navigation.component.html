@@ -1,68 +1,104 @@
-<div class="sidebar p" id = "sidebar">
-  <ul class="list-unstyled ps-2" id ="sidebar-ul">
-    <li *ngIf="needtoshow" class="ms-2 d-block mb-4 mt-4 nav-btn me-2">
+<div class="sidebar" id="sidebar">
+  <div
+    style="height: 100dvh"
+    class="list-unstyled d-flex justify-content-evenly flex-column"
+    id="sidebar-ul"
+  >
+    <div
+      *ngIf="needtoshow"
+      class="ms-2 d-block nav-btn me-2"
+      href="javascript:void(0)"
+    >
       <a
-        routerLink="Profile" routerLinkActive
+        routerLink="Profile"
+        href="javascript:void(0)"
+        routerLinkActive
         class="text-decoration-none d-flex justify-content-center align-items-center flex-column"
         ><div><i class="bi bi-person"></i></div>
         <div class="navbartext">Profile</div></a
       >
-    </li>
-    <li class="d-block mb-4 mt-4 nav-btn ms-md-3 me-md-3 ms-4 me-2">
+    </div>
+    <div
+      class="d-block nav-btn ms-md-3 me-md-3 ms-4 me-2"
+      href="javascript:void(0)"
+    >
       <a
-        routerLink="About" routerLinkActive
+        routerLink="About"
+        href="javascript:void(0)"
+        routerLinkActive
         class="text-decoration-none d-flex justify-content-center align-items-center flex-column"
         ><div><i class="bi bi-person"></i></div>
         <div class="navbartext">ABOUT</div></a
       >
-    </li>
-    <li class="d-block mb-4 mt-4 nav-btn ms-md-3 me-md-3 ms-2 me-2">
+    </div>
+    <div
+      class="d-block nav-btn ms-md-3 me-md-3 ms-2 me-2"
+      href="javascript:void(0)"
+    >
       <a
         routerLink="Education"
+        href="javascript:void(0)"
         class="text-decoration-none d-flex justify-content-center align-items-center flex-column"
         ><div><i class="bi bi-book"></i></div>
         <div class="navbartext">EDUCATION</div></a
       >
-    </li>
-    <li class="d-block mb-4 mt-4 nav-btn ms-md-3 me-md-3 ms-2 me-2">
+    </div>
+    <div
+      class="d-block nav-btn ms-md-3 me-md-3 ms-2 me-2"
+      href="javascript:void(0)"
+    >
       <a
         routerLink="Thesis"
+        href="javascript:void(0)"
         class="text-decoration-none d-flex justify-content-center align-items-center flex-column"
         ><div><i class="bi bi-journal-bookmark"></i></div>
         <div class="navbartext">THESIS</div></a
       >
-    </li>
-    <li class="d-block mb-4 mt-4 nav-btn ms-md-3 me-md-3 ms-2 me-2">
+    </div>
+    <div
+      class="d-block nav-btn ms-md-3 me-md-3 ms-2 me-2"
+      href="javascript:void(0)"
+    >
       <a
         routerLink="Skills"
+        href="javascript:void(0)"
         class="text-decoration-none d-flex justify-content-center align-items-center flex-column"
         ><div><i class="bi bi-stars"></i></div>
         <div class="navbartext">SKILLS</div></a
       >
-    </li>
-    <li class="d-block mb-4 mt-4 nav-btn ms-md-3 me-md-3 ms-2 me-2">
+    </div>
+    <div
+      class="d-block nav-btn ms-md-3 me-md-3 ms-2 me-2"
+      href="javascript:void(0)"
+    >
       <a
         routerLink="Projects"
+        href="javascript:void(0)"
         class="text-decoration-none d-flex justify-content-center align-items-center flex-column"
         ><div><i class="bi bi-terminal"></i></div>
         <div class="navbartext">PROJECTS</div></a
       >
-    </li>
-    <li class="d-block mb-4 mt-4 nav-btn ms-md-3 me-md-3 ms-2 me-2">
+    </div>
+    <div
+      class="d-block nav-btn ms-md-3 me-md-3 ms-2 me-2"
+      href="javascript:void(0)"
+    >
       <a
         routerLink="Experience"
+        href="javascript:void(0)"
         class="text-decoration-none d-flex justify-content-center align-items-center flex-column"
         ><div><i class="bi bi-bar-chart"></i></div>
         <div class="navbartext">EXPERIENCE</div></a
       >
-    </li>
-    <li class="d-block mb-4 mt-4 nav-btn ms-md-3 me-md-3 ms-2">
+    </div>
+    <div class="d-block nav-btn ms-md-3 me-md-3 ms-2" href="javascript:void(0)">
       <a
         routerLink="Contact"
+        href="javascript:void(0)"
         class="text-decoration-none d-flex justify-content-center align-items-center flex-column"
         ><div><i class="bi bi-send-check"></i></div>
         <div class="navbartext">CONTACT</div></a
       >
-    </li>
-  </ul>
+    </div>
+  </div>
 </div>
