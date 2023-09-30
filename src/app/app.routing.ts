@@ -1,4 +1,3 @@
-import { ProfileComponent } from './profile/profile.component';
 import { DownloadComponent } from './download/download.component';
 import { ThesisComponent } from './thesis/thesis.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
@@ -20,7 +19,15 @@ export const routes: Routes = [
         redirectTo: 'About',
         pathMatch: 'full',
       },
-      { path: 'About', component: AboutComponent },
+      {
+        path: 'About',
+        component: AboutComponent,
+
+        children: [
+          { path: 'Download', component: DownloadComponent },
+          { path: 'Contact', component: ContactComponent },
+        ],
+      },
       { path: 'Contact', component: ContactComponent },
       { path: 'Education', component: EducationComponent },
       { path: 'Skills', component: SkillsComponent },
@@ -28,14 +35,6 @@ export const routes: Routes = [
       { path: 'Experience', component: ResumeComponent },
       { path: 'Thesis', component: ThesisComponent },
       { path: 'Download', component: DownloadComponent },
-      {
-        path: 'Profile',
-        component: ProfileComponent,
-        children: [
-          { path: 'Download', component: DownloadComponent },
-          { path: 'Contact', component: ContactComponent },
-        ],
-      },
     ],
   },
   {

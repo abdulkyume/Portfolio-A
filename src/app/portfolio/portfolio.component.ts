@@ -2,12 +2,11 @@ import { Router, RouterOutlet } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavigationComponent } from '../navigation/navigation.component';
-import { ProfileComponent } from '../profile/profile.component';
 
 @Component({
   standalone: true,
   selector: 'app-portfolio',
-  imports: [CommonModule, RouterOutlet, NavigationComponent, ProfileComponent],
+  imports: [CommonModule, RouterOutlet, NavigationComponent],
   templateUrl: './portfolio.component.html',
   styleUrls: ['./portfolio.component.css'],
 })

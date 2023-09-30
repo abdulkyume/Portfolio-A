@@ -1,17 +1,19 @@
-<div class="text-white p-5 education-div">
-  <div class="mb-3 h2">
-    <i class="bi bi-mortarboard text-yellowgreen"></i> Education
-  </div>
-  <div class="education">
-    <div
-      class="text-justify education-text mb-5"
-      *ngFor="let edu of myeducation"
-    >
-      <div class="education-year">{{ edu.year }}</div>
-      <div class="education-institute">{{ edu.ins_name }}</div>
-      <div class="education-addr">{{ edu.address }}</div>
-      <div class="education-name">{{ edu.name }}</div>
-      <div class="education-grade">Grade: {{ edu.Grade }}</div>
+<div class="row">
+  <div class="text-white p-5 education-div">
+    <div class="mb-3 h2">
+      <i class="bi bi-mortarboard text-yellowgreen"></i> Education
+    </div>
+    <div class="education">
+      <div
+        class="text-justify education-text mb-5"
+        *ngFor="let edu of myeducation"
+      >
+        <div class="education-year">{{ edu.year }}</div>
+        <div class="education-institute">{{ edu.ins_name }}</div>
+        <div class="education-addr">{{ edu.address }}</div>
+        <div class="education-name">{{ edu.name }}</div>
+        <div class="education-grade">Grade: {{ edu.Grade }}</div>
+      </div>
     </div>
   </div>
 </div>
