@@ -15,11 +15,19 @@ export class ResumeComponent implements OnInit {
   ngOnInit(): void {}
   myexps = [
     {
+      id: 3,
+      des_name: 'Junior Software Engineer',
+      year: 'Feb, 2024-Current',
+      wkplc_name: 'WellDev Bangladsh Limited',
+      details: '',
+    },
+    {
       id: 2,
-      des_name: 'Software Engineer',
-      year: 'Jan, 2023-Current',
+      des_name: 'Junior Engineer',
+      year: 'Jan, 2023 - Jan, 2024',
       wkplc_name: 'Trust Axiata Digital Limited',
-      details: 'Developing Admin Portal, Merchant Portal, Remote Portal Using Angular. - Developed Push Notification Scheduler Service Using Spring Boot 3. - Trust Axiata Pay developed using wordpress and elementor.',
+      details:
+        'Developed Admin Portal, Merchant Portal, Remote Portal Using Angular. - Developed Push Notification Scheduler Service Using Spring Boot 3. - Trust Axiata Pay developed using wordpress and elementor.',
     },
     {
       id: 1,
