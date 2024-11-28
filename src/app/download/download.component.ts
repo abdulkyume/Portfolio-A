@@ -17,6 +17,6 @@ export class DownloadComponent implements OnInit {
     window.location.href = 'https://flowcv.com/invite/dgqdgkcu7n';
   }
   downloadcv() {
-    window.location.href = 'assets/pdf/Abdul_Kyume.pdf';
+    window.location.href = 'https://flowcv.com/resume/5hwtp8gi4l';
   }
 }

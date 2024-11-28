@@ -21,7 +21,7 @@ export class EducationComponent implements OnInit {
       year: '2018-2022',
       ins_name: 'East West University',
       address: 'Dhaka, Bangladesh',
-      Grade: 3.47,
+      Grade: 3.49,
     },
     {
       id: 2,
